@@ -1,3 +1,6 @@
+<img width="512" height="512" alt="favicon" src="https://github.com/user-attachments/assets/d18c0eba-eb46-419d-b82d-9f5e1d53fc95" />
+
+
 # Claudex (Claude Session Manager)
 
 Claude Code Session Manager - Web UI Version (No External Dependencies)
