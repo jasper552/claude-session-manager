@@ -132,3 +132,10 @@ C:\Users\Administrator\AppData\Local\Claude-3p\local-agent-mode-sessions\
 ---
 
 **提示**：使用前请确保已关闭 Claude Code，以免数据冲突。
+
+---
+
+## 快速链接
+
+- [中文 README](README.md)
+- [English README](README_EN.md)
