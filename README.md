@@ -5,8 +5,11 @@ Claude Code 会话管理器 - Web UI 版本（无需任何外部依赖）
 ![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## 📋 简介
+## 为什么创建这个项目?
+事情的起因是我把Claude Code 接入了第三方模型然后我发现会话就删不掉的问题
+然后我就用Claude Code 做了这个项目就是这样
 
+## 📋 简介
 这是一个为 Claude Code 用户设计的会话管理工具，提供直观的 Web 界面来浏览、搜索和管理你的会话历史。它直接读取本地 Claude Code 的会话数据，无需任何外部依赖。
 
 ## 🚀 快速链接
