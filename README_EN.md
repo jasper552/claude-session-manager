@@ -1,11 +1,16 @@
-# Claude Session Manager
+# Claudex (Claude Session Manager)
 
 Claude Code Session Manager - Web UI Version (No External Dependencies)
 
 ![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## 📋 Introduction
+## 🚀 Quick Links
+
+- [中文 README](README.md)
+- [English README](# Claudex (Claude Session Manager))
+
+##  Introduction
 
 A session management tool designed for Claude Code users, providing an intuitive web interface to browse, search, and manage your conversation history. It directly reads local Claude Code session data without any external dependencies.
 
@@ -26,24 +31,120 @@ A session management tool designed for Claude Code users, providing an intuitive
 
 ## 📦 Installation & Running
 
-### Requirements
+### Supported Platforms
 
-- Python 3.7 or higher
-- No additional dependencies required
+| Platform | Support Status | Notes |
+|----------|----------------|-------|
+| Windows | ✅ Full Support | Recommended for release installation |
+| macOS | ✅ Full Support | Requires building from source |
+| Linux | ✅ Full Support | Requires building from source |
 
-### Running Steps
+### Method 1: Install from Release (Recommended, Windows)
 
-1. Download the project to your local machine
-2. Open a terminal, navigate to the project directory
-3. Run the following command:
+1. Visit the [Releases page](https://github.com/jasper552/claude-session-manager/releases)
+2. Download the latest executable
+3. Double-click `Claudex.exe` to launch
+
+### Method 2: Install from Source (All Platforms)
+
+#### Windows
+
+1. Install Python 3.7 or higher
+2. Download the project locally
+3. Open a terminal and navigate to the project directory
+4. Run the following command:
 
 ```bash
 python claude_session_manager.py
 ```
 
-The program will automatically:
-- Open the web interface in your browser
-- Listen on port 18765 by default
+#### macOS
+
+1. Install Python 3.7 or higher:
+```bash
+brew install python
+```
+
+2. Download the project locally
+3. Open a terminal and navigate to the project directory
+4. Run the following command:
+
+```bash
+python3 claude_session_manager.py
+```
+
+#### Linux
+
+1. Install Python 3.7 or higher:
+```bash
+# Ubuntu/Debian
+sudo apt update && sudo apt install python3
+
+# CentOS/RHEL
+sudo yum install python3
+```
+
+2. Download the project locally
+3. Open a terminal and navigate to the project directory
+4. Run the following command:
+
+```bash
+python3 claude_session_manager.py
+```
+
+### Compile to Executable (Optional)
+
+If you want to package the project into a standalone executable, you can use PyInstaller.
+
+#### Install PyInstaller
+
+```bash
+pip install pyinstaller
+```
+
+#### Windows Packaging Steps
+
+1. Install PyInstaller
+2. Open a terminal and navigate to the project directory
+3. Run the following command:
+
+```bash
+pyinstaller --onefile --windowed --name "Claudex" claude_session_manager.py
+```
+
+4. After packaging, the executable will be in `dist/Claudex.exe`
+
+#### macOS Packaging Steps
+
+1. Install PyInstaller:
+```bash
+pip install pyinstaller
+```
+
+2. Open a terminal and navigate to the project directory
+3. Run the following command:
+
+```bash
+pyinstaller --onefile --windowed --name "Claudex" claude_session_manager.py
+```
+
+4. After packaging, the executable will be in `dist/Claudex`
+
+#### Linux Packaging Steps
+
+1. Install PyInstaller:
+```bash
+pip install pyinstaller
+```
+
+2. Open a terminal and navigate to the project directory
+3. Run the following command:
+
+```bash
+pyinstaller --onefile --windowed --name "Claudex" claude_session_manager.py
+```
+
+4. After packaging, the executable will be in `dist/Claudex`
 
 ## 💻 Usage Instructions
 
@@ -134,9 +235,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 **Note**: Make sure Claude Code is closed before using, to avoid data conflicts.
 
----
 
-## Quick Links
-
-- [中文 README](README.md)
-- [English README](README_EN.md)

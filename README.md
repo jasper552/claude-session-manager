@@ -1,4 +1,4 @@
-# Claude Session Manager
+# Claudex (Claude Session Manager)
 
 Claude Code 会话管理器 - Web UI 版本（无需任何外部依赖）
 
@@ -8,6 +8,11 @@ Claude Code 会话管理器 - Web UI 版本（无需任何外部依赖）
 ## 📋 简介
 
 这是一个为 Claude Code 用户设计的会话管理工具，提供直观的 Web 界面来浏览、搜索和管理你的会话历史。它直接读取本地 Claude Code 的会话数据，无需任何外部依赖。
+
+## 🚀 快速链接
+
+- [中文 README](# Claude Session Manager)
+- [English README](README_EN.md)
 
 ## ✨ 功能特性
 
@@ -26,24 +31,120 @@ Claude Code 会话管理器 - Web UI 版本（无需任何外部依赖）
 
 ## 📦 安装与运行
 
-### 环境要求
+### 支持平台
 
-- Python 3.7 或更高版本
-- 无需安装任何额外依赖
+| 平台 | 支持状态 | 备注 |
+|------|----------|------|
+| Windows | ✅ 完全支持 | 推荐使用发行版安装 |
+| macOS | ✅ 完全支持 | 需要从源码构建 |
+| Linux | ✅ 完全支持 | 需要从源码构建 |
 
-### 运行步骤
+### 方法一：从发行版安装（推荐，Windows）
 
-1. 下载项目到本地
-2. 打开终端，进入项目目录
-3. 运行以下命令：
+1. 访问 [Releases 页面](https://github.com/jasper552/claude-session-manager/releases)
+2. 下载最新版本的可执行文件
+3. 双击运行 `Claudex.exe` 即可启动
+
+### 方法二：从源码安装（所有平台）
+
+#### Windows
+
+1. 安装 Python 3.7 或更高版本
+2. 下载项目到本地
+3. 打开终端，进入项目目录
+4. 运行以下命令：
 
 ```bash
 python claude_session_manager.py
 ```
 
-程序会自动：
-- 在浏览器中打开 Web 界面
-- 默认监听端口：18765
+#### macOS
+
+1. 安装 Python 3.7 或更高版本：
+```bash
+brew install python
+```
+
+2. 下载项目到本地
+3. 打开终端，进入项目目录
+4. 运行以下命令：
+
+```bash
+python3 claude_session_manager.py
+```
+
+#### Linux
+
+1. 安装 Python 3.7 或更高版本：
+```bash
+# Ubuntu/Debian
+sudo apt update && sudo apt install python3
+
+# CentOS/RHEL
+sudo yum install python3
+```
+
+2. 下载项目到本地
+3. 打开终端，进入项目目录
+4. 运行以下命令：
+
+```bash
+python3 claude_session_manager.py
+```
+
+### 编译成可执行文件（可选）
+
+如果你想将项目打包成独立的可执行文件，可以使用 PyInstaller。
+
+#### 安装 PyInstaller
+
+```bash
+pip install pyinstaller
+```
+
+#### Windows 打包步骤
+
+1. 安装 PyInstaller
+2. 打开终端，进入项目目录
+3. 运行以下命令：
+
+```bash
+pyinstaller --onefile --windowed --name "Claudex" claude_session_manager.py
+```
+
+4. 打包完成后，可执行文件位于 `dist/Claudex.exe`
+
+#### macOS 打包步骤
+
+1. 安装 PyInstaller：
+```bash
+pip install pyinstaller
+```
+
+2. 打开终端，进入项目目录
+3. 运行以下命令：
+
+```bash
+pyinstaller --onefile --windowed --name "Claudex" claude_session_manager.py
+```
+
+4. 打包完成后，可执行文件位于 `dist/Claudex`
+
+#### Linux 打包步骤
+
+1. 安装 PyInstaller：
+```bash
+pip install pyinstaller
+```
+
+2. 打开终端，进入项目目录
+3. 运行以下命令：
+
+```bash
+pyinstaller --onefile --windowed --name "Claudex" claude_session_manager.py
+```
+
+4. 打包完成后，可执行文件位于 `dist/Claudex`
 
 ## 💻 使用说明
 
@@ -80,7 +181,8 @@ python claude_session_manager.py
 .
 ├── claude_session_manager.py  # 主程序文件
 ├── LICENSE                    # MIT 许可证
-└── README.md                  # 项目说明
+├── README.md                  # 中文项目说明
+└── README_EN.md               # English README
 ```
 
 ## 🔧 工作原理
@@ -132,10 +234,3 @@ C:\Users\Administrator\AppData\Local\Claude-3p\local-agent-mode-sessions\
 ---
 
 **提示**：使用前请确保已关闭 Claude Code，以免数据冲突。
-
----
-
-## 快速链接
-
-- [中文 README](README.md)
-- [English README](README_EN.md)
