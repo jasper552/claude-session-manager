@@ -221,6 +221,7 @@ C:\Users\Administrator\AppData\Local\Claude-3p\local-agent-mode-sessions\
 
 ## 🤝 贡献
 
+本项目由 AI 辅助生成，主要代码贡献者为 Claude Code。
 欢迎提交 Issue 和 Pull Request！
 
 ## 📄 许可证
@@ -230,6 +231,7 @@ C:\Users\Administrator\AppData\Local\Claude-3p\local-agent-mode-sessions\
 ## 🙏 致谢
 
 - 使用了 [DM Sans](https://github.com/GoogleFonts/dm-fonts) 和 [JetBrains Mono](https://www.jetbrains.com/lp/mono/) 字体
+- 主要代码由 Claude Code 生成。
 
 ---
 
