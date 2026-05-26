@@ -10,6 +10,9 @@ Claude Code Session Manager - Web UI Version (No External Dependencies)
 - [中文 README](README.md)
 - [English README](# Claudex (Claude Session Manager))
 
+## Why create this project?
+It all started when I connected Claude Code to a third-party model and realized that sessions couldn’t be deleted. I then used Claude Code to build this project—and that’s how it happened.
+
 ##  Introduction
 
 A session management tool designed for Claude Code users, providing an intuitive web interface to browse, search, and manage your conversation history. It directly reads local Claude Code session data without any external dependencies.
