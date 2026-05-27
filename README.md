@@ -240,5 +240,3 @@ C:\Users\Administrator\AppData\Local\Claude-3p\local-agent-mode-sessions\
 - 主要代码由 Claude Code 生成。
 
 ---
-
-**提示**：使用前请确保已关闭 Claude Code，以免数据冲突。
