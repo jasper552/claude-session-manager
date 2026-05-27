@@ -241,6 +241,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-**Note**: Make sure Claude Code is closed before using, to avoid data conflicts.
-
 
